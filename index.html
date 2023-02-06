@@ -18,7 +18,11 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo eum molestiae ullam sapiente exercitationem, repellat voluptatibus unde culpa ea. Laborum distinctio dolores quisquam fugit reprehenderit consequatur soluta beatae culpa.
         </div>
         <div>
-            <model-viewer src="3d/Diwata-ng-Dagat_GLB.glb" camera-controls auto-rotate></model-viewer>
+            <model-viewer src="3d/Diwata-ng-Dagat_GLB.glb" camera-controls auto-rotate>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
             <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
                 👋 Activate AR
             </button>
